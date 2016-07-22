@@ -1,5 +1,6 @@
 html, body {
-	background-color: #000;
+    background-image: url(../img/stars.jpg);
+	
 }
 
 #landing{
@@ -36,4 +37,15 @@ html, body {
 
 #employerSignup {
 	background-color: black;
+}
+
+
+.signUpForm{
+
+	clear: top;
+	margin-top: 10cm;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+	padding-top: 1.5cm;
 }

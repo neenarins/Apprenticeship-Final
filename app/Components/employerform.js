@@ -50,7 +50,7 @@ var EmployerForm = React.createClass({
       return (
         <div className="container">
           <div className="col-sm-12">
-           <div className="panel panel-primary" >
+           <div className="panel panel-primary signUpForm" >
               <div className="panel-heading" >
                  <h3 className="panel-title">Employer Sign-Up</h3>
               </div>
