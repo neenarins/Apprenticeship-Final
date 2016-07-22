@@ -1,0 +1,39 @@
+html, body {
+	background-color: #000;
+}
+
+#landing{
+
+	background-image: url(../img/astro.jpeg);
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#logoText{
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 3px 3px #a1a1a1;
+	font-size: 200px;
+	font-style: italic;
+	font-weight: 100px;
+	color: #fff;
+}
+
+#tagLine{
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 2px 2px #a1a1a1;
+	font-size: 50px;
+	color: #fff;
+}
+
+#navBar{
+	background-color: #000;
+}
+
+#test{
+	font-size: 200px;
+	color: #fff;
+}
+
+#employerSignup {
+	background-color: black;
+}
