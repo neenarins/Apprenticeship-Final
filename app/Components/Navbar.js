@@ -21,9 +21,9 @@ var Navbar = React.createClass({
 				      <li><a href="#/postjob">Jobs Postings</a></li>
 				      <li><a href="#/employer">Employers</a></li> 
 				      <li><a href="#/employee">Employees</a></li> 
-				      <li><a href="#/jobs">jobs</a></li> 
-				    <li><a href="#/employerprofile">employer profile</a></li>
-				     <li><a href="#/savedjobs">saved jobs</a></li> 
+				      <li><a href="#/jobs">Jobs</a></li> 
+				    <li><a href="#/employerprofile">Employer Profile</a></li>
+				     <li><a href="#/savedjobs">Saved Jobs</a></li> 
 				    
 				    </ul>
 				  </div>

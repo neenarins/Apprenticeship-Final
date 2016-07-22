@@ -24464,7 +24464,7 @@
 								React.createElement(
 									'a',
 									{ href: '#/jobs' },
-									'jobs'
+									'Jobs'
 								)
 							),
 							React.createElement(
@@ -24473,7 +24473,7 @@
 								React.createElement(
 									'a',
 									{ href: '#/employerprofile' },
-									'employer profile'
+									'Employer Profile'
 								)
 							),
 							React.createElement(
@@ -24482,7 +24482,7 @@
 								React.createElement(
 									'a',
 									{ href: '#/savedjobs' },
-									'saved jobs'
+									'Saved Jobs'
 								)
 							)
 						)
