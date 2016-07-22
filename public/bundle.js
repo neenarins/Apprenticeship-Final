@@ -33996,7 +33996,7 @@
 	        { className: 'col-sm-12' },
 	        React.createElement(
 	          'div',
-	          { className: 'panel panel-primary' },
+	          { className: 'panel panel-primary .signUpForm' },
 	          React.createElement(
 	            'div',
 	            { className: 'panel-heading' },
