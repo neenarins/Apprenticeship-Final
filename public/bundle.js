@@ -24412,41 +24412,18 @@
 						{ className: 'container-fluid' },
 						React.createElement(
 							'ul',
-							{ className: 'nav navbar-nav navbar-right' },
+							{ className: 'nav navbar-nav navbar-left' },
 							React.createElement(
 								'li',
 								null,
 								React.createElement(
 									'a',
 									{ href: '#' },
-									'Home'
-								)
-							),
-							React.createElement(
-								'li',
-								null,
-								React.createElement(
-									'a',
-									{ href: '#/jobs' },
-									'Jobs'
-								)
-							),
-							React.createElement(
-								'li',
-								null,
-								React.createElement(
-									'a',
-									{ href: '#/postjob' },
-									'Jobs Postings'
-								)
-							),
-							React.createElement(
-								'li',
-								null,
-								React.createElement(
-									'a',
-									{ href: '#/employer' },
-									'Employers'
+									React.createElement(
+										'strong',
+										null,
+										'Home'
+									)
 								)
 							),
 							React.createElement(
@@ -24472,8 +24449,21 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#/employerprofile' },
-									'Employer Profile'
+									{ href: '#/savedjobs' },
+									'Saved Jobs'
+								)
+							)
+						),
+						React.createElement(
+							'ul',
+							{ className: 'nav navbar-nav navbar-right' },
+							React.createElement(
+								'li',
+								null,
+								React.createElement(
+									'a',
+									{ href: '#/employer' },
+									'Employer Signup'
 								)
 							),
 							React.createElement(
@@ -24481,8 +24471,17 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#/savedjobs' },
-									'Saved Jobs'
+									{ href: '#/postjob' },
+									'Add A Job'
+								)
+							),
+							React.createElement(
+								'li',
+								null,
+								React.createElement(
+									'a',
+									{ href: '#/employerprofile' },
+									'Employer Profile'
 								)
 							)
 						)
@@ -24523,28 +24522,40 @@
 				{ className: 'main-container' },
 				React.createElement(
 					'div',
-					{ id: 'landing' },
+					{ id: 'spacing' },
 					React.createElement(
-						'h1',
-						{ className: 'text-center', id: 'logoText' },
-						'APPRENTICE'
-					),
-					React.createElement(
-						'h3',
-						{ className: 'text-center', id: 'tagLine' },
-						'DON\'T GET LOST IN TECHSPACE'
-					),
-					React.createElement(
-						'a',
-						{ href: '#', className: 'btn btn-primary btn-large' },
-						React.createElement('i', { className: 'icon-white icon-pencil' }),
-						' Employer Signup'
-					),
-					React.createElement(
-						'a',
-						{ href: '#', className: 'btn btn-primary btn-large' },
-						React.createElement('i', { className: 'icon-white icon-pencil' }),
-						' Employee Signup'
+						'div',
+						{ id: 'landing' },
+						React.createElement(
+							'h1',
+							{ className: 'text-center', id: 'logoText' },
+							'APPRENTICE'
+						),
+						React.createElement(
+							'h3',
+							{ className: 'text-center', id: 'tagLine' },
+							'DON\'T GET LOST IN TECHSPACE'
+						),
+						React.createElement(
+							'div',
+							{ className: 'row', id: 'buttonSpace' },
+							React.createElement(
+								'div',
+								{ className: 'col-sm-12 col-md-4 col-md-offset-5' },
+								React.createElement(
+									'a',
+									{ href: '#', className: 'btn btn-primary btn-large' },
+									React.createElement('i', { className: 'icon-white icon-pencil' }),
+									' Employer Signup'
+								),
+								React.createElement(
+									'a',
+									{ href: '#', className: 'btn btn-primary btn-large' },
+									React.createElement('i', { className: 'icon-white icon-pencil' }),
+									' Employee Signup'
+								)
+							)
+						)
 					)
 				)
 			);
@@ -29119,61 +29130,7 @@
 
 			return React.createElement(
 				'div',
-				{ className: 'row' },
-				React.createElement(
-					'div',
-					{ className: 'col-lg-12' },
-					React.createElement(
-						'div',
-						{ className: 'panel panel-danger' },
-						React.createElement(
-							'div',
-							{ className: 'panel-heading' },
-							React.createElement(
-								'h1',
-								{ className: 'panel-title' },
-								React.createElement(
-									'strong',
-									null,
-									React.createElement('i', { className: 'fa fa-newspaper-o', 'aria-hidden': 'true' }),
-									'Search Opportunities'
-								)
-							)
-						),
-						React.createElement(
-							'div',
-							{ className: 'panel-body' },
-							React.createElement(
-								'div',
-								{ className: 'col-lg-6' },
-								React.createElement(
-									'div',
-									{ className: 'input-group' },
-									React.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Keywords: JavaScript, MongoDB, Front-End, Back-End, etc.', name: 'keywords', value: this.state.keywords, onChange: this.handleInput })
-								),
-								React.createElement('br', null),
-								React.createElement(
-									'div',
-									{ className: 'input-group' },
-									React.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Location: Zip Code, City', name: 'location', value: this.state.location, onChange: this.handleInput })
-								),
-								React.createElement(
-									'span',
-									{ className: 'input-group-btn' },
-									React.createElement(
-										'button',
-										{ className: 'btn btn-danger', type: 'button', onClick: this.handleSubmit },
-										React.createElement(
-											'span',
-											{ className: 'glyphicon glyphicon-search', 'aria-hidden': 'true' },
-											' Submit!'
-										)
-									)
-								)
-							)
-						)
-					)
-				),
+				{ className: 'main-container', id: 'spacing' },
 				React.createElement(
 					'div',
 					{ className: 'row' },
@@ -29182,7 +29139,7 @@
 						{ className: 'col-lg-12' },
 						React.createElement(
 							'div',
-							{ className: 'panel panel-danger' },
+							{ className: 'panel panel-default', id: 'panelSpace' },
 							React.createElement(
 								'div',
 								{ className: 'panel-heading' },
@@ -29192,8 +29149,8 @@
 									React.createElement(
 										'strong',
 										null,
-										React.createElement('i', { className: 'fa fa-list-alt' }),
-										'Listings'
+										React.createElement('i', { className: 'fa fa-newspaper-o', 'aria-hidden': 'true' }),
+										'Search Opportunities'
 									)
 								)
 							),
@@ -29201,11 +29158,69 @@
 								'div',
 								{ className: 'panel-body' },
 								React.createElement(
-									'ul',
-									{ className: 'list-group' },
-									this.state.data.map(function (result) {
-										return React.createElement(EmployeeResults, { key: result.jobID, data: result, user: this.state.user });
-									}.bind(this))
+									'div',
+									{ className: 'col-lg-6' },
+									React.createElement(
+										'div',
+										{ className: 'input-group' },
+										React.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Keywords: JavaScript, MongoDB, Front-End, Back-End, etc.', name: 'keywords', value: this.state.keywords, onChange: this.handleInput })
+									),
+									React.createElement('br', null),
+									React.createElement(
+										'div',
+										{ className: 'input-group' },
+										React.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Location: Zip Code, City', name: 'location', value: this.state.location, onChange: this.handleInput })
+									),
+									React.createElement(
+										'span',
+										{ className: 'input-group-btn' },
+										React.createElement(
+											'button',
+											{ className: 'btn btn-default', type: 'button', onClick: this.handleSubmit },
+											React.createElement(
+												'span',
+												{ className: 'glyphicon glyphicon-search', 'aria-hidden': 'true' },
+												' Submit!'
+											)
+										)
+									)
+								)
+							)
+						)
+					),
+					React.createElement(
+						'div',
+						{ className: 'row' },
+						React.createElement(
+							'div',
+							{ className: 'col-lg-12' },
+							React.createElement(
+								'div',
+								{ className: 'panel panel-default' },
+								React.createElement(
+									'div',
+									{ className: 'panel-heading' },
+									React.createElement(
+										'h1',
+										{ className: 'panel-title' },
+										React.createElement(
+											'strong',
+											null,
+											React.createElement('i', { className: 'fa fa-list-alt' }),
+											'Listings'
+										)
+									)
+								),
+								React.createElement(
+									'div',
+									{ className: 'panel-body' },
+									React.createElement(
+										'ul',
+										{ className: 'list-group' },
+										this.state.data.map(function (result) {
+											return React.createElement(EmployeeResults, { key: result.jobID, data: result, user: this.state.user });
+										}.bind(this))
+									)
 								)
 							)
 						)
@@ -33517,29 +33532,7 @@
 
 			return React.createElement(
 				'div',
-				{ className: 'row' },
-				React.createElement(
-					'div',
-					{ className: 'col-lg-12' },
-					React.createElement(
-						'div',
-						{ className: 'panel panel-danger' },
-						React.createElement(
-							'div',
-							{ className: 'panel-heading' },
-							React.createElement(
-								'h1',
-								{ className: 'panel-title' },
-								React.createElement(
-									'strong',
-									null,
-									React.createElement('i', { className: 'fa fa-newspaper-o', 'aria-hidden': 'true' }),
-									'Saved Jobs'
-								)
-							)
-						)
-					)
-				),
+				{ className: 'container', id: 'spacing' },
 				React.createElement(
 					'div',
 					{ className: 'row' },
@@ -33548,7 +33541,7 @@
 						{ className: 'col-lg-12' },
 						React.createElement(
 							'div',
-							{ className: 'panel panel-danger' },
+							{ className: 'panel panel-default' },
 							React.createElement(
 								'div',
 								{ className: 'panel-heading' },
@@ -33996,7 +33989,7 @@
 	        { className: 'col-sm-12' },
 	        React.createElement(
 	          'div',
-	          { className: 'panel panel-primary' },
+	          { className: 'panel panel-primary signUpForm' },
 	          React.createElement(
 	            'div',
 	            { className: 'panel-heading' },
@@ -34235,7 +34228,7 @@
 					{ className: 'col-lg-12' },
 					React.createElement(
 						'div',
-						{ className: 'panel panel-danger' },
+						{ className: 'panel panel-default' },
 						React.createElement(
 							'div',
 							{ className: 'panel-heading' },
@@ -34260,7 +34253,7 @@
 						{ className: 'col-lg-12' },
 						React.createElement(
 							'div',
-							{ className: 'panel panel-danger' },
+							{ className: 'panel panel-default' },
 							React.createElement(
 								'div',
 								{ className: 'panel-heading' },

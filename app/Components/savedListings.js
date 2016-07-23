@@ -48,7 +48,7 @@ var SavedListings = React.createClass({
 			<div className="row">
 				<div className="col-lg-12">
 
-					<div className="panel panel-danger">
+					<div className="panel panel-default">
 						<div className="panel-heading">
 							<h1 className="panel-title"><strong><i className="fa fa-newspaper-o" aria-hidden="true"></i>Saved Jobs</strong></h1>
 						</div>
@@ -60,7 +60,7 @@ var SavedListings = React.createClass({
 			
 				<div className="row">
 					<div className="col-lg-12">
-						<div className="panel panel-danger">
+						<div className="panel panel-default">
 							<div className="panel-heading">
 								<h1 className="panel-title"><strong><i className="fa fa-list-alt"></i>Listings 5</strong></h1>
 							</div>

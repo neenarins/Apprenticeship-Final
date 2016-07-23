@@ -3,11 +3,34 @@ html, body {
 	
 }
 
-#landing{
+#spacing{
+	margin-top: 50px;
+}
 
+.list-group-item{
+	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.panel-header{
+	color:#fff;
+	font-size: 24px;
+}
+
+#landing{
+	padding-top: 30px;
 	background-image: url(../img/astro.jpeg);
 	background-repeat: no-repeat;
 	height: 100vh;
+}
+
+#buttonSpace{
+	padding-top: 20px;
+}
+
+#postingHead{
+	margin-top:10px;
 }
 
 #logoText{
@@ -45,7 +68,7 @@ html, body {
 	clear: top;
 	margin-top: 10cm;
 	text-align: center;
-	width: 500px;
+	width: 800px;
 	margin: auto;
 	padding-top: 1.5cm;
 }

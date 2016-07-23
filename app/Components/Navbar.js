@@ -15,17 +15,19 @@ var Navbar = React.createClass({
 			<div className="main-container">
 				<nav className="navbar navbar-inverse navbar-fixed-top" id="navBar">
 				  <div className="container-fluid">
-				    <ul className="nav navbar-nav navbar-right">
-				      <li><a href="#">Home</a></li>
-				      <li><a href="#/jobs">Jobs</a></li>
-				      <li><a href="#/postjob">Jobs Postings</a></li>
-				      <li><a href="#/employer">Employers</a></li> 
+			      	<ul className="nav navbar-nav navbar-left">
+			      	  <li><a href="#"><strong>Home</strong></a></li>
 				      <li><a href="#/employee">Employees</a></li> 
-				      <li><a href="#/jobs">Jobs</a></li> 
-				    <li><a href="#/employerprofile">Employer Profile</a></li>
-				     <li><a href="#/savedjobs">Saved Jobs</a></li> 
+				      <li><a href="#/jobs">Jobs</a></li>
+				      <li><a href="#/savedjobs">Saved Jobs</a></li> 
+			     	</ul>
+				    <ul className="nav navbar-nav navbar-right">
+				      <li><a href="#/employer">Employer Signup</a></li> 
+				      <li><a href="#/postjob">Add A Job</a></li>
+				      <li><a href="#/employerprofile">Employer Profile</a></li>
+			      	</ul>
 				    
-				    </ul>
+			
 				  </div>
 				</nav>
 
