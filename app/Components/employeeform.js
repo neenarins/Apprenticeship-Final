@@ -76,7 +76,7 @@ var EmployeeForm = React.createClass({
 
       return (
         <div className="container">
-         <div className="panel panel-primary signUpForm">
+         <div className="panel panel-default signUpForm">
             <div className="panel-heading">
                <h3 className="panel-title">Employee Sign-Up</h3>
             </div>

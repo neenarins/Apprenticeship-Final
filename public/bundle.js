@@ -28840,7 +28840,7 @@
 	      { className: 'container' },
 	      React.createElement(
 	        'div',
-	        { className: 'panel panel-primary signUpForm' },
+	        { className: 'panel panel-default signUpForm' },
 	        React.createElement(
 	          'div',
 	          { className: 'panel-heading' },
