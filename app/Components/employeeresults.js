@@ -103,23 +103,17 @@ var EmployeeResults = React.createClass({
             <Modal.Title>{this.state.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <h4>Text in a modal</h4>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
-
-            
 
             <hr />
-
-            <h4>Overflowing text to show scroll behavior</h4>
             
-            <p>{this.state.description}</p>
-            <p>{this.state.keywords[0]}</p>
-            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <p id="modalText"><strong> Description: </strong> {this.state.description}</p>
+            <p id="modalText"><strong> Skills: </strong> {this.state.keywords[0]}</p>
+            <p id="modalText"><strong> Skills: </strong> {this.state.keywords[1]}</p>
+            <p id="modalText"><strong> City: </strong> {this.state.jobLocation}</p>
+            <p id="modalText"><strong> Zip Code: </strong> {this.state.zipcode}</p>
+            <p id="modalText"><strong> Initial Salary: </strong> {this.state.startingSalary}</p>
+            <p id="modalText"><strong> Final Salary: </strong> {this.state.finalSalary}</p>
+            
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.close}>Close</Button>

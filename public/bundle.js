@@ -29395,61 +29395,83 @@
 	        React.createElement(
 	          _Modal2.default.Body,
 	          null,
-	          React.createElement(
-	            'h4',
-	            null,
-	            'Text in a modal'
-	          ),
-	          React.createElement(
-	            'p',
-	            null,
-	            'Duis mollis, est non commodo luctus, nisi erat porttitor ligula.'
-	          ),
 	          React.createElement('hr', null),
 	          React.createElement(
-	            'h4',
-	            null,
-	            'Overflowing text to show scroll behavior'
-	          ),
-	          React.createElement(
 	            'p',
-	            null,
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Description: '
+	            ),
+	            ' ',
 	            this.state.description
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Skills: '
+	            ),
+	            ' ',
 	            this.state.keywords[0]
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
-	            'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Skills: '
+	            ),
+	            ' ',
+	            this.state.keywords[1]
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
-	            'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.'
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' City: '
+	            ),
+	            ' ',
+	            this.state.jobLocation
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
-	            'Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.'
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Zip Code: '
+	            ),
+	            ' ',
+	            this.state.zipcode
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
-	            'Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Initial Salary: '
+	            ),
+	            ' ',
+	            this.state.startingSalary
 	          ),
 	          React.createElement(
 	            'p',
-	            null,
-	            'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.'
-	          ),
-	          React.createElement(
-	            'p',
-	            null,
-	            'Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.'
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Final Salary: '
+	            ),
+	            ' ',
+	            this.state.finalSalary
 	          )
 	        ),
 	        React.createElement(
