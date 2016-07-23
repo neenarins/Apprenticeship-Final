@@ -24,8 +24,8 @@ var Landing = React.createClass({
 						</h3>
 					<div className="row" id="buttonSpace">
 						<div className="col-sm-12 col-md-4 col-md-offset-5">
-							<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employer Signup</a>
-							<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employee Signup</a>
+							<a href="#/employer" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employer Signup</a>
+							<a href="#/employee" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employee Signup</a>
 						</div>
 					</div>
 					</div>

@@ -24544,13 +24544,13 @@
 								{ className: 'col-sm-12 col-md-4 col-md-offset-5' },
 								React.createElement(
 									'a',
-									{ href: '#', className: 'btn btn-primary btn-large' },
+									{ href: '#/employer', className: 'btn btn-primary btn-large' },
 									React.createElement('i', { className: 'icon-white icon-pencil' }),
 									' Employer Signup'
 								),
 								React.createElement(
 									'a',
-									{ href: '#', className: 'btn btn-primary btn-large' },
+									{ href: '#/employee', className: 'btn btn-primary btn-large' },
 									React.createElement('i', { className: 'icon-white icon-pencil' }),
 									' Employee Signup'
 								)
