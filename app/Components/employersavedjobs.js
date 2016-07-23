@@ -131,7 +131,7 @@ var EmployerSavedJobs = React.createClass({
 				  	<span><em>{this.props.data.title}</em></span>
 					<span className="btn-group pull-right" >
 						<p>{this.props.data.description}</p>
-						<a href= {this.props.data.postingLink} target="_blank" className="btn btn-primary"  type="submit" role="button">View Article</a>
+						<a href= {this.props.data.postingLink} target="_blank" className="btn btn-primary"  type="submit" role="button">View Job</a>
 					{/*}	<button className="btn btn-primary" onClick={this.removeJob}>Delete </button>
 					    <button className="btn btn-primary" onClick={this.open} </button> */}
 						<Button onClick={this.removeJob}>Delete</Button>

@@ -25826,7 +25826,7 @@
 	        { className: 'col-sm-12' },
 	        React.createElement(
 	          'div',
-	          { className: 'panel panel-primary signUpForm' },
+	          { className: 'panel panel-default signUpForm' },
 	          React.createElement(
 	            'div',
 	            { className: 'panel-heading' },
@@ -33747,7 +33747,7 @@
 	            React.createElement(
 	              'a',
 	              { href: this.props.data.postingLink, target: '_blank', className: 'btn btn-primary', type: 'submit', role: 'button' },
-	              'View Article'
+	              'View Job'
 	            ),
 	            React.createElement(
 	              _Button2.default,
