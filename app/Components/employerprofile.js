@@ -41,23 +41,14 @@ var EmployerProfile = React.createClass ({
 	render: function() {
 
 		return (
+		<div className="container" id="spacing">
 
-			<div className="row">
-				<div className="col-lg-12">
-
-					<div className="panel panel-danger">
-						<div className="panel-heading">
-							<h1 className="panel-title"><strong><i className="fa fa-newspaper-o" aria-hidden="true"></i>Saved Jobs</strong></h1>
-						</div>
-						
-					</div>
-				</div>
 			
 			
 			
 				<div className="row">
 					<div className="col-lg-12">
-						<div className="panel panel-danger">
+						<div className="panel panel-default">
 							<div className="panel-heading">
 								<h1 className="panel-title"><strong><i className="fa fa-list-alt"></i>Posted Jobs</strong></h1>
 							</div>

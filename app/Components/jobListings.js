@@ -62,11 +62,11 @@ var JobListings = React.createClass({
 	render: function() {
 
 		return (
-
+			<div className="main-container" id="spacing">
 			<div className="row">
 				<div className="col-lg-12">
 
-					<div className="panel panel-danger">
+					<div className="panel panel-default" id="panelSpace">
 						<div className="panel-heading">
 							<h1 className="panel-title"><strong><i className="fa fa-newspaper-o" aria-hidden="true"></i>Search Opportunities</strong></h1>
 						</div>
@@ -84,7 +84,7 @@ var JobListings = React.createClass({
 							    </div>
 
 							    <span className="input-group-btn">
-								    	<button className="btn btn-danger" type="button" onClick={this.handleSubmit}><span className="glyphicon glyphicon-search" aria-hidden="true"> Submit!</span></button>
+								    	<button className="btn btn-default" type="button" onClick={this.handleSubmit}><span className="glyphicon glyphicon-search" aria-hidden="true"> Submit!</span></button>
 								</span>
 							</div>
 						</div>
@@ -95,7 +95,7 @@ var JobListings = React.createClass({
 			
 				<div className="row">
 					<div className="col-lg-12">
-						<div className="panel panel-danger">
+						<div className="panel panel-default">
 							<div className="panel-heading">
 								<h1 className="panel-title"><strong><i className="fa fa-list-alt"></i>Listings</strong></h1>
 							</div>
@@ -112,6 +112,7 @@ var JobListings = React.createClass({
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 
 		);

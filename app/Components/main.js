@@ -12,6 +12,7 @@ var Landing = React.createClass({
 		return(			
 
 			<div className="main-container">
+			<div id="spacing">
 				<div id="landing">
 					
 						<h1 className="text-center" id="logoText">
@@ -21,11 +22,14 @@ var Landing = React.createClass({
 						<h3 className="text-center" id="tagLine">
 							DON'T GET LOST IN TECHSPACE
 						</h3>
-
-						<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employer Signup</a>
-						<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employee Signup</a>
-
+					<div className="row" id="buttonSpace">
+						<div className="col-sm-12 col-md-4 col-md-offset-5">
+							<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employer Signup</a>
+							<a href="#" className="btn btn-primary btn-large"><i className="icon-white icon-pencil"></i> Employee Signup</a>
+						</div>
 					</div>
+					</div>
+			</div>
 			</div>
 			)
 		}	
