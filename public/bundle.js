@@ -29299,7 +29299,8 @@
 	      startingSalary: this.props.data.startingSalary,
 	      finalSalary: this.props.data.finalSalary,
 	      zipcode: this.props.data.zipcode,
-	      keywords: []
+	      keywords: [],
+	      company: this.props.data.company
 
 	    };
 	  },
@@ -29396,6 +29397,17 @@
 	          _Modal2.default.Body,
 	          null,
 	          React.createElement('hr', null),
+	          React.createElement(
+	            'p',
+	            { id: 'modalText' },
+	            React.createElement(
+	              'strong',
+	              null,
+	              ' Company: '
+	            ),
+	            ' ',
+	            this.state.company
+	          ),
 	          React.createElement(
 	            'p',
 	            { id: 'modalText' },

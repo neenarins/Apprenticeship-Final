@@ -29,7 +29,8 @@ var EmployeeResults = React.createClass({
 			startingSalary:this.props.data.startingSalary,
 			finalSalary:this.props.data.finalSalary,
 			zipcode:this.props.data.zipcode,
-			keywords:[]
+			keywords:[],
+			company: this.props.data.company
 		
 
 
@@ -106,6 +107,7 @@ var EmployeeResults = React.createClass({
 
             <hr />
             
+            <p id="modalText"><strong> Company: </strong> {this.state.company}</p>
             <p id="modalText"><strong> Description: </strong> {this.state.description}</p>
             <p id="modalText"><strong> Skills: </strong> {this.state.keywords[0]}</p>
             <p id="modalText"><strong> Skills: </strong> {this.state.keywords[1]}</p>
