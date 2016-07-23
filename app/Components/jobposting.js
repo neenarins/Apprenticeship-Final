@@ -118,7 +118,7 @@ var JobPosting = React.createClass({
       return (
         <div className="container">
           <div className="col-sm-12">
-           <div className="panel panel-primary signUpForm" >
+           <div className="panel panel-default signUpForm" >
               <div className="panel-heading" >
                  <h3 className="panel-title">Post a Job</h3>
               </div>
